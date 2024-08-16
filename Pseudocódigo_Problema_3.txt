@@ -1,0 +1,33 @@
+Pseudocódigo Problema 3: Ganancias o perdidas de un negocio de automóviles 
+
+Program ganancias_del_auto
+Start
+//Programa para calcular las ganancias o perdidas de un automóvil vendido
+//Declarar variables
+Declare integer precioAuto
+Declare integer precioReparacion
+Declare integer precioFinalAuto
+Declare float comision%Vendedor
+Declare integer comisionTotalVendedor
+Declare integer gananciasVenta
+Declare integer totalInversion
+
+//Obtener datos
+Display "Ingrese el precio de compra del automóvil: "
+input precioAuto = 1500.00
+Display "Ingrese los costos de reparación del automóvil: "
+input PrecioReparacion = 2000.00
+Display "Ingrese el precio de venta del automóvil: "
+input PrecioFinalAuto = 18500.00
+Display "Ingrese el porncentaje de comisión del vendedor en decimales: "
+input comision%Vendedor = 0.05
+
+//Realizar el calculo de la comisión del vendedor
+Set comisionTotalVendedor = comision%Vendedor * precioFinalAuto
+//Realizar el calculo de ganancias o perdidas de la venta
+Set gananciasVenta = precioFinalAuto - (precioAuto + precioReparacion + comisionTotalVendedor)
+//Realizar el calculo de costo total invertido en el auto
+Set totalInversion = precioAuto + precioReparacion
+
+//Mostrar la información del automóvil
+Display "Esta es la información: ". Costo total invertido: ", totalInversion, ". Monto de la comisión: ", comisionTotalVendedor, ". Precio final: ", precioFinalAuto, ". Ganancias totales: ", gananciasVenta
