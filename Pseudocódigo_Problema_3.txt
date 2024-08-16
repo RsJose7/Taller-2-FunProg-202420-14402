@@ -14,13 +14,13 @@ Declare integer totalInversion
 
 //Obtener datos
 Display "Ingrese el precio de compra del automóvil: "
-input precioAuto = 1500.00
+Input precioAuto = 1500.00
 Display "Ingrese los costos de reparación del automóvil: "
-input PrecioReparacion = 2000.00
+Input PrecioReparacion = 2000.00
 Display "Ingrese el precio de venta del automóvil: "
-input PrecioFinalAuto = 18500.00
+Input PrecioFinalAuto = 18500.00
 Display "Ingrese el porncentaje de comisión del vendedor en decimales: "
-input comision%Vendedor = 0.05
+Input comision%Vendedor = 0.05
 
 //Realizar el calculo de la comisión del vendedor
 Set comisionTotalVendedor = comision%Vendedor * precioFinalAuto
