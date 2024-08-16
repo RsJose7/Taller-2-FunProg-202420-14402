@@ -1,0 +1,7 @@
+Algoritmo para calculo de material para construcción. 
+1. Iniciar
+2. Declarar variables bolsas de cemento, total de pies cuadrados y declarar como constante una bolsa de cemento igual a 1500 pies cuadrados 
+3. Pedir al usuario el total de pies cuadrados a cubrir 
+4. Realizar calculo para hallar cuantas bolsas se necesitan dividiendo el total de pies cuadrados a cubrir por la cantidad de pies cuadrados que equivale una bolsa de cemento.
+5. Mostrar la cantidad de bolsas totales que se necesita
+6. Finalizar
