@@ -31,3 +31,4 @@ Set totalInversion = precioAuto + precioReparacion
 
 //Mostrar la información del automóvil
 Display "Esta es la información: ". Costo total invertido: ", totalInversion, ". Monto de la comisión: ", comisionTotalVendedor, ". Precio final: ", precioFinalAuto, ". Ganancias totales: ", gananciasVenta
+End
