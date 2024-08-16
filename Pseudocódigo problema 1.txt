@@ -1,0 +1,25 @@
+Pseudocódigo problema 1: Información de un producto 
+
+Program mostrarInformacionDeUnProducto
+Start
+// Programa para mostrar el nombre, la descripción, el precio y el código de barras de un producto 
+// Declaración de variables 
+Declare String name 
+Declare String description
+Declare String price
+Declare String code  
+ 
+//Obtener datos
+Display "por favor ingrese el nombre: "
+Input name 
+Display "Ingrese la descripción: "
+Input description 
+Display "Ingrese el precio: "
+Input price
+Display "Ingrese el código: "
+Input code 
+
+//Mostrar información 
+Display "Información de ", name,". Descripción: ", description,". Precio:", price," Codigo:", code 
+ 
+End 
