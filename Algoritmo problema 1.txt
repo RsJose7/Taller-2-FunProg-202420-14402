@@ -1,0 +1,5 @@
+Algoritmo para suministrar información de un producto
+1. iniciar
+2. Obtener el nombre, descripción, precio y código de un producto
+3. Mostrar información del producto
+4. Finalizar 
