@@ -1,0 +1,20 @@
+Pseudocódigo Problema 1: Calculo de Materiales para Construcción
+
+Program calculo_materiales
+Start
+//Programa para calcular la cantidad de materiales en pies cuadrados
+//Declarar variables
+Declare float totalPiesCuadrados
+Declare float totalBolsasCemento
+Const float unaBolsa = 1500.00
+
+//Obtener datos
+Display "Ingrese el total de pies cuadrados a cubrir: "
+Input totalPiesCuadrados
+
+//Realizar calculo del total de bolsas de cementos a necesitar
+Set totalBolsasCemento = totalPiesCuadrados / unaBolsa
+
+//Mostrar resultados
+Display "La cantidad de bolsas de cemento a necesitar son: ", totalBolsasCemento
+End 
