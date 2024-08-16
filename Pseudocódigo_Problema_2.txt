@@ -1,4 +1,4 @@
-Pseudocódigo Problema 1: Calculo de Materiales para Construcción
+Pseudocódigo Problema 2: Calculo de Materiales para Construcción
 
 Program calculo_materiales
 Start
