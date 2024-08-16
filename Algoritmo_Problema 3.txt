@@ -3,5 +3,5 @@ Algoritmo para un programa de ganancias o perdidas de un negocio de automóviles
 2. Declarar variables de costo total invertido, costo de reparación, monto de la comisión, precio final de automóvil, las ganancias o perdidas de la venta y el total invertido
 3. Pedir al usuario los valores correspondientes
 4. Realizar el calculo de la comisión del vendedor, las ganancias totales de la venta, el total invertido en el auto 
-4. Mostrar la información del automóvil
-5. Finalizar
+5. Mostrar la información del automóvil
+6. Finalizar
